@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/jokerweb/src/main/java/com/joker/intercepter/JspUrlFilter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jokerweb/src/main/resources/applicationContext-db.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jokerweb/src/main/resources/applicationContext-mvc.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jokerweb/src/main/resources/applicationContext.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jokerweb/src/main/resources/logback.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jokerweb/src/main/resources/zjpz-default.properties" charset="UTF-8" />
+  </component>
+</project>

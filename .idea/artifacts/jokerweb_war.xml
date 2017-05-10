@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jokerweb:war">
+    <output-path>$PROJECT_DIR$/jokerweb/target</output-path>
+    <root id="archive" name="joker-web.war">
+      <element id="artifact" artifact-name="jokerweb:war exploded" />
+    </root>
+  </artifact>
+</component>
