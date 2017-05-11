@@ -6,6 +6,7 @@
         <element id="directory" name="classes">
           <element id="module-output" name="joker-web" />
           <element id="module-output" name="joker-data-handle" />
+          <element id="module-output" name="joker-common" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: com.zjpz:zjpz-common:1.0-SNAPSHOT" />
