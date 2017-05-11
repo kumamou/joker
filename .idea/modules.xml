@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/jokerweb/jokerweb.iml" filepath="$PROJECT_DIR$/jokerweb/jokerweb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/multi-module.iml" filepath="$PROJECT_DIR$/multi-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/joker.iml" filepath="$PROJECT_DIR$/.idea/joker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jokerweb/joker-web.iml" filepath="$PROJECT_DIR$/jokerweb/joker-web.iml" />
     </modules>
   </component>
 </project>

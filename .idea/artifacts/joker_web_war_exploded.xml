@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="jokerweb:war exploded">
+  <artifact type="exploded-war" name="joker-web:war exploded">
     <output-path>$PROJECT_DIR$/jokerweb/target/joker-web</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="jokerweb" />
+          <element id="module-output" name="joker-web" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: com.zjpz:zjpz-common:1.0-SNAPSHOT" />
@@ -105,7 +105,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="D:\joker\jokerweb\target/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="jokerweb/web/Web" />
+      <element id="javaee-facet-resources" facet="joker-web/web/Web" />
     </root>
   </artifact>
 </component>

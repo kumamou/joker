@@ -11,7 +11,7 @@
 	                       http://www.springframework.org/schema/tx/spring-tx-4.1.xsd">
 
     <context:property-placeholder
-            location="classpath*:zjpz-default.properties"
+            location="classpath*:joker-default.properties"
             system-properties-mode="FALLBACK"
             ignore-unresolvable="true"
             ignore-resource-not-found="false"
@@ -20,12 +20,12 @@
 
     <bean id="dataSourceDefinition" class="org.apache.commons.dbcp.BasicDataSource" abstract="true">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="maxWait" value="${zjpz.dataSource.maxWait}"/>
-        <property name="initialSize" value="${zjpz.dataSource.initialSize}"/>
-        <property name="maxActive" value="${zjpz.dataSource.maxActive}"/>
-        <property name="numTestsPerEvictionRun" value="${zjpz.dataSource.numTestsPerEvictionRun}"/>
-        <property name="maxIdle" value="${zjpz.dataSource.maxIdle}"/>
-        <property name="minIdle" value="${zjpz.dataSource.minIdle}"/>
+        <property name="maxWait" value="${joker.dataSource.maxWait}"/>
+        <property name="initialSize" value="${joker.dataSource.initialSize}"/>
+        <property name="maxActive" value="${joker.dataSource.maxActive}"/>
+        <property name="numTestsPerEvictionRun" value="${joker.dataSource.numTestsPerEvictionRun}"/>
+        <property name="maxIdle" value="${joker.dataSource.maxIdle}"/>
+        <property name="minIdle" value="${joker.dataSource.minIdle}"/>
         <property name="testOnBorrow" value="true"/>
         <property name="testWhileIdle" value="true"/>
         <property name="timeBetweenEvictionRunsMillis" value="300000"/>
@@ -51,9 +51,9 @@
     </bean>
 
     <bean id="dataSource" parent="dataSourceDefinition">
-        <property name="url" value="${zjpz.env.development.dataSource.url}"/>
-        <property name="username" value="${zjpz.env.development.dataSource.username}"/>
-        <property name="password" value="${zjpz.env.development.dataSource.password}"/>
+        <property name="url" value="${joker.env.development.dataSource.url}"/>
+        <property name="username" value="${joker.env.development.dataSource.username}"/>
+        <property name="password" value="${joker.env.development.dataSource.password}"/>
     </bean>
 
 

@@ -41,7 +41,7 @@
 
 
     <!-- 拦截器过滤地址,配置不需要拦截的地址。 -->
-    <!--<bean id="authenticationInterceptor" class="com.zjpz.intercepter.AutoLogonIfCookieInterceptor">-->
+    <!--<bean id="authenticationInterceptor" class="com.joker.intercepter.AutoLogonIfCookieInterceptor">-->
         <!--<property name="mustcheckUrls">-->
             <!--<list>-->
               <!--&lt;!&ndash;  <value>index.html</value>-->
@@ -92,7 +92,7 @@
     <!--</bean>-->
 
     <!-- 权限拦截器。 -->
-    <!--<bean id="authorityInterceptor" class="com.zjpz.intercepter.AuthorityInterceptor">-->
+    <!--<bean id="authorityInterceptor" class="com.joker.intercepter.AuthorityInterceptor">-->
         <!--<property name="mustcheckUrls">-->
             <!--<list>-->
                 <!--<value>index.html</value>-->
@@ -101,7 +101,7 @@
             <!--</list>-->
         <!--</property>-->
     <!--</bean>-->
-    <!--<bean id="tokenInterceptor" class="com.zjpz.intercepter.TokenInterceptor"/>-->
+    <!--<bean id="tokenInterceptor" class="com.joker.intercepter.TokenInterceptor"/>-->
 
     <!--  拦截器 -->
     <!--<mvc:interceptors>-->
@@ -111,7 +111,7 @@
     <!--</mvc:interceptors>-->
 
     <context:property-placeholder
-            location="classpath*:zjpz-default.properties"
+            location="classpath*:joker-default.properties"
             system-properties-mode="FALLBACK"
             ignore-unresolvable="true"
             ignore-resource-not-found="false"
@@ -138,8 +138,8 @@
         <!--<constructor-arg value="my089MemcachedPool"/>-->
         <!--<property name="servers">-->
             <!--<list>-->
-                <!--<value>${zjpz.memcached.servers.0}</value>-->
-                <!--<value>${zjpz.memcached.servers.1}</value>-->
+                <!--<value>${joker.memcached.servers.0}</value>-->
+                <!--<value>${joker.memcached.servers.1}</value>-->
             <!--</list>-->
         <!--</property>-->
         <!--<property name="initConn" value="20"/>-->
@@ -163,7 +163,7 @@
             <!--<null/>-->
         <!--</constructor-arg>-->
         <!--<constructor-arg type="com.whalin.MemCached.ErrorHandler">-->
-            <!--<bean class="com.zjpz.service.impl.WhalinMemcachedService$DefaultErrorHandler"/>-->
+            <!--<bean class="com.joker.service.impl.WhalinMemcachedService$DefaultErrorHandler"/>-->
         <!--</constructor-arg>-->
         <!--<property name="sanitizeKeys" value="false"/>-->
     <!--</bean>-->
@@ -178,7 +178,7 @@
         <!--</property>-->
     <!--</bean>-->
     <!--<import resource="classpath*:applicationContext-db.xml"/>-->
-    <!--<bean class="com.zjpz.util.BeanUtil"/>-->
+    <!--<bean class="com.joker.util.BeanUtil"/>-->
 
     <!--<bean id="jobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">-->
         <!--<property name="targetObject" ref="initialCache" />-->
