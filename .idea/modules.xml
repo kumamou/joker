@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/joker.iml" filepath="$PROJECT_DIR$/.idea/joker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/joker-data-handle/joker-data-handle.iml" filepath="$PROJECT_DIR$/joker-data-handle/joker-data-handle.iml" />
       <module fileurl="file://$PROJECT_DIR$/joker-web/joker-web.iml" filepath="$PROJECT_DIR$/joker-web/joker-web.iml" />
     </modules>
   </component>

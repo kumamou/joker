@@ -1,8 +1,10 @@
 package com.joker.controller;
 
+import com.joker.dao.TestC;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+
 
 /**
  * 环境测试控制器
@@ -16,6 +18,8 @@ public class JokerTestController {
     @RequestMapping("helloWord.html")
     public ModelAndView goIndex(ModelAndView mav){
         mav.setViewName("index.jsp");
+        TestC testC=new TestC();
+        System.out.println(testC);
         return mav;
     }
 }

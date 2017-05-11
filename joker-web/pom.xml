@@ -2,46 +2,27 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-        <artifactId>multi-module</artifactId>
-        <groupId>com.joker.parent</groupId>
+        <artifactId>joker-parent</artifactId>
+        <groupId>com.joker</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>joker-web</artifactId>
-    <packaging>war</packaging>
-    <name>joker-web Maven Webapp</name>
+    <packaging>pom</packaging>
+    <name>joker-web</name>
+    <version>1.0-SNAPSHOT</version>
     <url>http://maven.apache.org</url>
     <build>
         <finalName>joker-web</finalName>
     </build>
 
     <dependencies>
+        <dependency>
+            <groupId>com.joker</groupId>
+            <artifactId>joker-data-handle</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
-        <dependency>
-            <groupId>com.zjpz</groupId>
-            <artifactId>zjpz-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.zjpz</groupId>
-            <artifactId>zjpz-common-pay</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.zjpz</groupId>
-            <artifactId>zjpz-task</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.zjpz</groupId>
-            <artifactId>zjpz-common-facede</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.zjpz</groupId>
-            <artifactId>zjpz-data-handle</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
 
         <dependency>
             <groupId>commons-io</groupId>

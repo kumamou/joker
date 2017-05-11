@@ -4,12 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.joker.parent</groupId>
-    <artifactId>multi-module</artifactId>
+    <groupId>com.joker</groupId>
+    <artifactId>joker-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>joker-web</module>
+        <module>joker-data-handle</module>
     </modules>
     <properties>
         <version.spring>4.1.2.RELEASE</version.spring>
